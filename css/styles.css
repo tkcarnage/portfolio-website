@@ -60,6 +60,7 @@ table {
 }
 
 .splash{
+	font-family: 'Neuton', serif;
 	position: relative;
 }
 
@@ -75,7 +76,13 @@ table {
 
 .splash-title{
 	font-size: 4em;
-	color: white;
+	padding: 0.3em;
+	color: #ffffff;
+}
+
+.accent{
+	font-family: 'Eczar', serif;
+	color: #42C6FF;
 }
 
 
