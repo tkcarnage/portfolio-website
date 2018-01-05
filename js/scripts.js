@@ -10,13 +10,13 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#8F2AA3"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#ffffff"
+          "color": "#8F2AA3"
         }
       },
       "opacity": {
@@ -36,9 +36,9 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#8F2AA3",
         "opacity": 0.4,
-        "width": 1
+        "width": 2
       },
       "move": {
         "enable": true,
@@ -64,3 +64,25 @@ particlesJS('particles-js',
     "retina_detect": true
   }
 );
+
+// typewriterjs
+
+var typed = document.getElementById('typed');
+var typewriter = new Typewriter(typed, {
+  loop: true
+});
+
+typewriter.typeString("Full Stack Developer")
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString("JavaScript Tinkerer")
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString("Bug Squasher")
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString("Googlefu Master")
+  .start()
+
+
+

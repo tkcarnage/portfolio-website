@@ -47,9 +47,14 @@ table {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #b61924;
-  background-image: url('');
+  background-color: #FF0081;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  z-index: -10
+}
+
+#typed{
+	font-size: 5em;
+	color: white;
 }
