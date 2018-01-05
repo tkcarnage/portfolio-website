@@ -104,17 +104,19 @@ nav{
 	font-size: 2.1em;
 }
 
-.about-center{
-	height: 100vh;
+.about{
 	width: 100%;
-	position: absolute;
+}
+
+.about-center{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .about-title{
-	margin: 2% 0;
+	margin: 5% 0 0 0;
 	padding: 2%;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 3.5em;
@@ -123,23 +125,58 @@ nav{
 }
 
 .about-main-container{
+	width: 50%;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #ffffff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 5%;
 }
 
 .img-circle{
+	padding: 5% 0;
   border-radius: 50%;
-  width: 35%;
+  width: 300px;
+  height: 300px;
 }
 
 .about-info{
-	
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.3em;
 }
 
+.article-p{
+	margin: 2%;
+}
 
+.accent-p{
+	color: #D90843;
+}
 
+.skills{
+	background-color: #FF0081;
+}
 
+.skills-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills-title{
+	margin: 2% 0;
+	padding: 2%;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 3.5em;
+	color: #ffffff;
+	text-decoration: underline;
+}
 
 
 
