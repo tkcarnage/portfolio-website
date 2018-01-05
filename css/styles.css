@@ -55,6 +55,32 @@ table {
 }
 
 #typed{
-	font-size: 5em;
+	font-size: 3.5em;
 	color: white;
 }
+
+.splash{
+	position: relative;
+}
+
+.splash-center{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.splash-title{
+	font-size: 4em;
+	color: white;
+}
+
+
+
+
+
+
+
