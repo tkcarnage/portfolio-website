@@ -72,16 +72,19 @@ var typewriter = new Typewriter(typed, {
   loop: true
 });
 
-typewriter.typeString("I'm a Full Stack Developer")
+typewriter.typeString("I'm a Full Stack Developer.")
+  .pauseFor(2000)
+  .deleteChars(21)
+  .typeString("JavaScript Tinkerer.")
   .pauseFor(2000)
   .deleteChars(20)
-  .typeString("JavaScript Tinkerer")
+  .typeString("Bug Squasher.")
   .pauseFor(2000)
-  .deleteChars(19)
-  .typeString("Bug Squasher")
+  .deleteChars(13)
+  .typeString("Googlefu Master.")
   .pauseFor(2000)
-  .deleteChars(12)
-  .typeString("Googlefu Master")
+  .deleteChars(16)
+  .typeString("Caffeine Lover.")
   .pauseFor(2000)
   .start()
 
