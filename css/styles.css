@@ -104,10 +104,6 @@ nav{
 	font-size: 2.1em;
 }
 
-.about{
-	width: 100%;
-}
-
 .about-center{
 	width: 100%;
 	display: flex;
@@ -184,7 +180,7 @@ nav{
 
 .skills-icon-container{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 0 20%;
@@ -197,12 +193,63 @@ nav{
 .icon-img{
 	width: 5em;
 	padding: 1%;
-
 }
 
-.icon-title{
+.projects-container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+}
+
+.projects-title{
+	margin: 5% 0 0 0;
+	padding: 2%;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 3.5em;
+	color: #FF0081;
+	border: solid 0.1em #FF0081;
+}
+
+.cards-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2%;
+	padding: 2%;
+	height: 500px;
+	width: 30vw;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.project-title{
+	font-family: 'Neuton', serif;
+	font-size: 2em;
+	margin: 2% 0 10% 0;
+	color: #FF0081;
+}
+
+.project-about{
+	font-family: 'Neuton', serif;
+	color: #FF0081;
 	font-size: 1.2em;
-	color: #ffffff;
+}
+
+.project-tn{
+	width: 350px;
+	height: 250px;
+	margin-bottom: 5%;
 }
 
 
