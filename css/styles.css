@@ -228,7 +228,7 @@ nav{
 	align-items: center;
 	margin: 2%;
 	padding: 2%;
-	height: 500px;
+	height: 400px;
 	width: 30vw;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -236,7 +236,7 @@ nav{
 .project-title{
 	font-family: 'Neuton', serif;
 	font-size: 2em;
-	margin: 2% 0 10% 0;
+	margin: 2% 0;
 	color: #FF0081;
 }
 
@@ -252,9 +252,28 @@ nav{
 	margin-bottom: 5%;
 }
 
+.contact{
+	height: 100vh;
+	background-color: #FF0081;
+}
 
+.contact-container{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.contact-title{
+	font-size: 3.5em;
+	color: #ffffff;
+	margin-bottom: 5%;
+}
 
+.accent-title{
+	color: #42C6FF;;
+}
 
 
 
