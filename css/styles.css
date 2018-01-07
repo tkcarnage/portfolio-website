@@ -45,7 +45,7 @@ table {
 
 /*-----------------*/
 body{
-	background-color: #8F2AA3
+	background-color: #25006D
 }
 
 #particles-js{
@@ -64,7 +64,7 @@ body{
 }
 
 nav{
-	height: 3em;
+	height: 4em;
 	background-color: #25006D;
 }
 
@@ -273,6 +273,11 @@ nav{
 
 .accent-title{
 	color: #42C6FF;;
+}
+
+.footer-format{
+	background-color: #25006D;
+	height: 4em;
 }
 
 
