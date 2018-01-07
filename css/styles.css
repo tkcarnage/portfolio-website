@@ -265,7 +265,6 @@ nav{
 	min-height: 100vh;
 	width: 100%;
 	background-color: #FF0081;
-	position: relative;
 }
 
 .contact-container{
@@ -275,7 +274,6 @@ nav{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
 }
 
 .contact-icon{
@@ -294,6 +292,10 @@ nav{
 	margin: 2%;
 }
 
+.contact-icon > a {
+	margin: 2.5%;
+}
+
 .contact-title{
 	font-size: 4.8em;
 	color: #ffffff;
@@ -304,13 +306,25 @@ nav{
 	color: #42C6FF;;
 }
 
-.footer-format{
-	background-color: #25006D;
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 4em;
+	background-color: #25006D;
 }
 
+.footer-format{
+	font-size: 0.8em;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
 
-
+footer > a{
+	font-size: 0.8em;
+	color: #ffffff;
+}
 
 
 
