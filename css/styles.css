@@ -58,6 +58,16 @@ body{
   z-index: -10
 }
 
+#particles-js1{
+  width: 100%;
+  height: 100vh;
+  background-color: #FF0081;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -10
+}
+
 #typed{
 	font-size: 3em;
 	color: white;
@@ -255,6 +265,7 @@ nav{
 	min-height: 100vh;
 	width: 100%;
 	background-color: #FF0081;
+	position: relative;
 }
 
 .contact-container{
@@ -264,6 +275,7 @@ nav{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position: absolute;
 }
 
 .contact-icon{
@@ -283,7 +295,7 @@ nav{
 }
 
 .contact-title{
-	font-size: 3.5em;
+	font-size: 4.8em;
 	color: #ffffff;
 	margin: 2.5%;
 }
