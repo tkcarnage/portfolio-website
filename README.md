@@ -3,7 +3,7 @@ Teaseung Kim's most recent portfolio website
 Work in progress
 Live Version: [Here](https://teaseung-kim.herokuapp.com/)
 
-![screenshot](https://github.com/tkcarnage/anonChatApp/blob/master/images/screenshot.png)
+![screenshot](https://github.com/tkcarnage/portfolio-website/blob/master/images/screenshot.png)
 
 ## Description:
 A static portfolio website for Teaseung Kim. Shows my projects, skills, and ways to contact me.
