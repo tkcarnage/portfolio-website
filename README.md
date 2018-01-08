@@ -24,3 +24,9 @@ A static portfolio website for Teaseung Kim. Shows my projects, skills, and ways
 1. git clone https://github.com/tkcarnage/portfolio-website.git
 1. cd into project directory 
 1. open up index.html
+
+## Todo
+1. Add resume to website somewhere
+1. Change color scheme
+1. Optimize load time with minify
+1. Add responsive css for phone sizes
