@@ -1,5 +1,5 @@
 # Portfolio Website
-Teaseung Kim's most recent portfolio website work in progress
+Teaseung Kim's most recent portfolio website
 
 ## Live Version: [Here](https://teaseung-kim.herokuapp.com/)
 
