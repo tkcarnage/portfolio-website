@@ -1,7 +1,7 @@
 # Portfolio Website
-Teaseung Kim's most recent portfolio website
-Work in progress
-Live Version: [Here](https://teaseung-kim.herokuapp.com/)
+Teaseung Kim's most recent portfolio website work in progress
+
+## Live Version: [Here](https://teaseung-kim.herokuapp.com/)
 
 ![screenshot](https://github.com/tkcarnage/portfolio-website/blob/master/images/screenshot.png)
 
