@@ -300,6 +300,10 @@ nav{
 	margin: 2.5%;
 }
 
+.accent-contact{
+	color: #42C6FF;
+}
+
 footer{
 	display: flex;
 	flex-direction: column;
